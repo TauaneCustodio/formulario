@@ -8,29 +8,29 @@
     <title>FORMULÁRIO: ONE PIECE</title>
 </head>
 <body>
-    <div>
-        <h1>ONE PIECE</h1>
-        <p>
+    <div class="campo">
+        <h1 id="title">ONE PIECE</h1>
+        <p id="subtitle">
             Preencha os dados para a comunidade te conhecer melhor! <br>
         </p>
     </div>    
     <form action="">
-        <fieldset>
-            <div>
-                <label for="">Nome</label>
-                <input type="text" name="nome" id="nome">
+        <fieldset class="group">
+            <div class="campo">
+                <label for="nome"><strong>Nome</strong></label>
+                <input type="text" name="nome" id="nome" required>
             </div>
-            <div>
-                <label for="">Sobrenome</label>
-                <input type="text" name="sobrenome" id="sobrenome">
+            <div class="campo">
+                <label for="sobrenome"><strong>Sobrenome</strong></label>
+                <input type="text" name="sobrenome" id="sobrenome" required>
             </div>
         </fieldset>
-        <div>
-            <label for="">Email</label>
-            <input type="email" name="email" id="email">
+        <div class="campo">
+            <label for="email"><strong>Email</strong></label>
+            <input type="email" name="email" id="email" required>
         </div>
-        <div>
-            <label for="">Qual dos mugiwara você seria:</label><br>
+        <div class="campo">
+            <label for="mugiwara"><strong>Qual dos mugiwara você seria:</strong></label><br>
             <select name="mugiwara" id="">
                 <option selected disabled value="">Escolha</option>
                 <option value="Monkey D. Luffy">Monkey D. Luffy</option>
@@ -45,42 +45,42 @@
                 <option value="Jinbe">Jinbe</option>
             </select>
         </div>
-        <div>
-            <label for="">Com que Shichibukai você mais se identifica?</label><br>
-            <label for="">
+        <div class="campo">
+            <label for="Shichibukai"><strong>Com que Shichibukai você mais se identifica?</strong></label><br>
+            <label for="Shichibukai1">
                 <input type="radio" name="Shichibukai" value="Bartholomew Kuma" checked>Bartholomew Kuma
             </label>
-            <label for="">
+            <label for="Shichibukai2">
                 <input type="radio" name="Shichibukai" value="Boa Hancock">Boa Hancock
             </label>
-            <label for="">
+            <label for="Shichibukai3">
                 <input type="radio" name="Shichibukai" value="Juraquille Mihawk">Juraquille Mihawk
             </label>
-            <label for="">
+            <label for="Shichibukai4">
                 <input type="radio" name="Shichibukai" value="Don Quixote DoFlamingo">Don Quixote DoFlamingo
             </label>
-            <label for="">
+            <label for="Shichibukai5">
                 <input type="radio" name="Shichibukai" value="Buggy">Buggy
             </label>
-            <label for="">
+            <label for="Shichibukai6">
                 <input type="radio" name="Shichibukai" value="Sir Crocodile">Sir Crocodile
             </label>
-            <label for="">
+            <label for="Shichibukai7">
                 <input type="radio" name="Shichibukai" value="Jinbe">Jinbe
             </label>
-            <label for="">
+            <label for="Shichibukai8">
                 <input type="radio" name="Shichibukai" value="Marshall D. Teach">Marshall D. Teach
             </label>
-            <label for="">
+            <label for="Shichibukai9">
                 <input type="radio" name="Shichibukai" value="Gekko Moriah">Gekko Moriah
             </label>
-            <label for="">
+            <label for="Shichibukai10">
                 <input type="radio" name="Shichibukai" value="Trafalgar Law">Trafalgar Law
             </label>
         </div>
-        <fieldset>
-            <div>
-                <label for="">Quais sagas você mais curtiu?</label>
+        <fieldset class="group">
+            <div class="campo">
+                <label for="sagas"><strong>Quais sagas você mais curtiu?</strong></label>
                 <input type="checkbox" id="sagas" name="sagas" value="East blue">
                 <label for="East blue">East blue</label>
                 <input type="checkbox" id="sagas" name="sagas" value="Saga Alabasta">
@@ -101,11 +101,11 @@
                 <label for="Saga Yonkou">Saga Yonkou</label>
             </div>
         </fieldset>
-        <div>
-            <label for="">Conte um pouco sobre como One Piece impactou na sua vida:</label>
+        <div class="campo">
+            <label for="impacto"><strong>Conte um pouco sobre como One Piece impactou na sua vida:</strong></label>
             <textarea name="impacto" id="impacto" cols="30" rows="5"></textarea>
         </div>
-        <button type="submit">Concluído</button>
+        <button type="submit" class="button">Concluído</button>
     </form>
 </body>
 </html>
