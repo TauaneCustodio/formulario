@@ -15,7 +15,7 @@
         </p>
     </div>    
     <form action="">
-        <fieldset class="group">
+        <fieldset id="nome" class="group">
             <div class="campo">
                 <label for="nome"><strong>Nome</strong></label>
                 <input type="text" name="nome" id="nome" required>
@@ -31,81 +31,93 @@
         </div>
         <div class="campo">
             <label for="mugiwara"><strong>Qual dos mugiwara você seria:</strong></label><br>
-            <select name="mugiwara" id="">
+            <select name="mugiwara" required>
                 <option selected disabled value="">Escolha</option>
-                <option value="Monkey D. Luffy">Monkey D. Luffy</option>
-                <option value="Roronoa Zoro">Roronoa Zoro</option>
-                <option value="Usopp">Usopp</option>
-                <option value="Sanji">Sanji</option>
-                <option value="Nami">Nami</option>
-                <option value="Chopper">Chopper</option>
-                <option value="Nico Robin">Nico Robin</option>
-                <option value="Franky">Franky</option>
-                <option value="Brook">Brook</option>
-                <option value="Jinbe">Jinbe</option>
+                <option>Monkey D. Luffy</option>
+                <option>Roronoa Zoro</option>
+                <option>Usopp</option>
+                <option>Sanji</option>
+                <option>Nami</option>
+                <option>Chopper</option>
+                <option>Nico Robin</option>
+                <option>Franky</option>
+                <option>Brook</option>
+                <option>Jinbe</option>
             </select>
         </div>
         <div class="campo">
-            <label for="Shichibukai"><strong>Com que Shichibukai você mais se identifica?</strong></label><br>
-            <label for="Shichibukai1">
+            <label><strong>Com que Shichibukai você mais se identifica?</strong></label><br>
+            <label>
                 <input type="radio" name="Shichibukai" value="Bartholomew Kuma" checked>Bartholomew Kuma
             </label>
-            <label for="Shichibukai2">
+            <label>
                 <input type="radio" name="Shichibukai" value="Boa Hancock">Boa Hancock
             </label>
-            <label for="Shichibukai3">
+            <label>
                 <input type="radio" name="Shichibukai" value="Juraquille Mihawk">Juraquille Mihawk
             </label>
-            <label for="Shichibukai4">
+            <label>
                 <input type="radio" name="Shichibukai" value="Don Quixote DoFlamingo">Don Quixote DoFlamingo
             </label>
-            <label for="Shichibukai5">
+            <label">
                 <input type="radio" name="Shichibukai" value="Buggy">Buggy
             </label>
-            <label for="Shichibukai6">
+            <label>
                 <input type="radio" name="Shichibukai" value="Sir Crocodile">Sir Crocodile
             </label>
-            <label for="Shichibukai7">
+            <label>
                 <input type="radio" name="Shichibukai" value="Jinbe">Jinbe
             </label>
-            <label for="Shichibukai8">
+            <label>
                 <input type="radio" name="Shichibukai" value="Marshall D. Teach">Marshall D. Teach
             </label>
-            <label for="Shichibukai9">
+            <label>
                 <input type="radio" name="Shichibukai" value="Gekko Moriah">Gekko Moriah
             </label>
-            <label for="Shichibukai10">
+            <label>
                 <input type="radio" name="Shichibukai" value="Trafalgar Law">Trafalgar Law
             </label>
         </div>
         <fieldset class="group">
-            <div class="campo">
+            <div id="check">
                 <label for="sagas"><strong>Quais sagas você mais curtiu?</strong></label>
+                <br>
                 <input type="checkbox" id="sagas" name="sagas" value="East blue">
                 <label for="East blue">East blue</label>
+                <br>
                 <input type="checkbox" id="sagas" name="sagas" value="Saga Alabasta">
                 <label for="Saga Alabasta">Saga Alabasta</label>
+                <br>
                 <input type="checkbox" id="sagas" name="sagas" value="Saga Skypiea">
                 <label for="Saga Skypiea">Saga Skypiea</label>
+                <br>
                 <input type="checkbox" id="sagas" name="sagas" value="Saga Water 7">
                 <label for="Saga Water 7">Saga Water 7</label>
+                <br>
                 <input type="checkbox" id="sagas" name="sagas" value="Saga Thriller Bark">
                 <label for="Saga Thriller Bark">Saga Thriller Bark</label>
+                <br>
                 <input type="checkbox" id="sagas" name="sagas" value="Saga Guerra de Marineford">
                 <label for="Saga Guerra de Marineford">Saga Guerra de Marineford</label>
+                <br>
                 <input type="checkbox" id="sagas" name="sagas" value="Saga Ilha dos Homens-Peixe">
                 <label for="Saga Ilha dos Homens-Peixe">Saga Ilha dos Homens-Peixe</label>
+                <br>
                 <input type="checkbox" id="sagas" name="sagas" value="Saga Aliança Pirata">
                 <label for="Saga Aliança Pirata">Saga Aliança Pirata</label>
+                <br>
                 <input type="checkbox" id="sagas" name="sagas" value="Saga Yonkou">
                 <label for="Saga Yonkou">Saga Yonkou</label>
             </div>
         </fieldset>
+
         <div class="campo">
+            <br>
             <label for="impacto"><strong>Conte um pouco sobre como One Piece impactou na sua vida:</strong></label>
-            <textarea name="impacto" id="impacto" cols="30" rows="5"></textarea>
+            <textarea name="impacto" id="impacto" cols="50" rows="6"></textarea>
         </div>
-        <button type="submit" class="button">Concluído</button>
+        
+        <button class="button" type="submit" onsubmit="">Concluído</button>
     </form>
 </body>
 </html>
