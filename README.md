@@ -1,4 +1,4 @@
-# 🪪Formulárrios
+# 🪪Formulários
 Praticando formulários com apenas HTML5 e CSS3 com vídeos do youtube.
 
 ## 🔗Referências: 
