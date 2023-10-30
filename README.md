@@ -11,9 +11,3 @@ Larissa Ki](https://youtu.be/zWw0npNDkVM?si=IvEju5TrVOCIGlP3)
 
 ### 📍[Formulário_03](formulario_03)
 - [Crie Um FORMULÁRIO COMPLETO com HTML, CSS & JavaScript](https://youtu.be/3Ec9zY1C2og?si=2juUcCLnQmOnMz2o)
-  
-### 📍[Formulário_04](formulario_04)
-- [APRENDA como criar um FORMULÁRIO com HTML e CSS](https://youtu.be/VCsNIRXNsmY?si=pd14b6jvoww7P01N)
-
-### 📍[Formulário_05](formulario_05)
-- [Como criar um formulário e PERSONALIZAR A CAIXA DE TEXTOS (input) com HTML e CSS](https://youtu.be/U7LAy8iRsWc?si=QyIv7NAHcrhGKjDj)  r
